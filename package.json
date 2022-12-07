@@ -2,7 +2,7 @@
   "name": "redditscraper",
   "productName": "Reddit Media Scraper",
   "version": "1.0.2",
-  "description": "Devoloped by Anand Kamble ©2022",
+  "description": "Devoloped by Prathmesh Jadhav ©2022",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -19,8 +19,8 @@
         "nsis"
       ],
       "icon": "src/logo.png",
-      "legalTrademarks": "(c) 2022 Anand Kamble",
-      "publisherName": "Anand Kamble"
+      "legalTrademarks": "(c) 2022 Prathmesh Jadhav",
+      "publisherName": "Prathmesh Jadhav"
     },
     "nsis": {
       "uninstallDisplayName": "Reddit Media Scraper",
@@ -31,12 +31,12 @@
   },
   "keywords": [],
   "author": {
-    "name": "Anand Kamble",
-    "email": "anandmk837@gmail.com"
+    "name": "Prathmesh Jadhav",
+    "email": "prathameshjadhav1411@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anand-kamble/Reddit-Media-Scraper"
+    "url": "https://github.com/PJadhav1411/Reddit-Media-Scraper-main"
   },
   "license": "MIT",
   "config": {
