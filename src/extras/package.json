@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node index.js"
   },
-  "author": "Prathmesh Jadhav",
+  "author": "Anand Kamble",
   "license": "ISC",
   "type": "module"
 }
