@@ -350,8 +350,11 @@
         "cHVzc3k=",
         "Y3VudA==",
         "ZGljaw==",
+        "ZnVjaw==",
       ];
-      return NSFWkeywords.some((keyword) => title.includes(atob(keyword)));
+      return NSFWkeywords.some((keyword) =>
+        title.toLocaleLowerCase().includes(atob(keyword))
+      );
     };
 
     function getPopular() {
@@ -758,7 +761,7 @@
           "beforeend",
           `                  <div  class="dwnlfile">
                     <div class=" fileThumb"style = "background: url('${file.thumbnail}');background-size: cover;background-repeat: no-repeat;background-position: center center;">
-                      
+
                     </div>
                     <p>${file.title}</p>
                   </div>`
@@ -790,7 +793,7 @@
           "beforeend",
           `                  <div  class="dwnlfile">
                     <div class=" fileThumb"style = "background: url('${d.thumbnail}');background-size: cover;background-repeat: no-repeat;background-position: center center;">
-                      
+
                     </div>
                     <p>${d.title}</p>
                   </div>`
