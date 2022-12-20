@@ -13,8 +13,8 @@ const downloading = (sData, cb) => {
     if (
       postsData.url.includes("jpg") ||
       postsData.url.includes("png") ||
-      // postsData.url.includes("gif") ||
-      (/*postsData.url.includes("mp4") &&*/ globals.is_download_cancelled == false)
+      postsData.url.includes("gif") ||
+      (postsData.url.includes("mp4") && globals.is_download_cancelled == false)
     ) {
       let title;
       const file_count = fs.readdirSync(globals.downloadsfinalPath).length;
